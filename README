@@ -1,2 +1,6 @@
 It is a calculator project for CI/CD testing.
 Analyze "com.simplilearn:calculator": feebf34f9db1364835a27504990f4780fcafeb16
+mvn sonar:sonar \
+  -Dsonar.projectKey=com.simplilearn:calculator \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=feebf34f9db1364835a27504990f4780fcafeb16
